@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #36474f;
+}
+
+.section {
+  margin: 10rem 5rem;
+}
+
+.box {
+  width: 150px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.row {
+  gap: 15px;
+  display: flex;
+}
+
+.section > .row:first-child {
+  justify-content: flex-start;
+}
+
+.section > .middle-row {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+
+.section > .row:last-child {
+  justify-content: flex-end;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}
+
+.box4 {
+  background-color: yellow;
+}
+
+.box5 {
+  background-color: pink;
+}
+
+.box6 {
+  background-color: hotpink;
+}

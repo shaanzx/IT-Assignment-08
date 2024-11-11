@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    overflow-y: hidden;
+  }
+  
+  .box img {
+    width: 100px;
+    height: 200px;
+  }
+  
+  .box h1 {
+      color: palevioletred;
+      text-align: center;
+  }

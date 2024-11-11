@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* main {
+  width: 1200px;
+} */
+
+h1 {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 20px 0;
+  margin: 0 10rem;
+}
+
+.light {
+  width: 150px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 8px;
+  transition: opacity 0.3s;
+}
+
+.active {
+    opacity: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+#btn-start,
+#btn-end {
+  width: 90px;
+  height: 30px;
+  font-size: 1.3rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-start {
+  background-color: blue;
+}
+
+#btn-start:hover {
+  background-color: darkblue;
+  font-size: 1rem;
+}
+
+#btn-end {
+  background-color: red;
+}
+
+#btn-end:hover {
+  background-color: darkred;
+  font-size: 1rem;
+}
+
+.foot-nav{
+  margin-top: 10rem;
+  background-color: wheat;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.foot-nav a{
+  text-decoration: none;
+  color: black;
+}
